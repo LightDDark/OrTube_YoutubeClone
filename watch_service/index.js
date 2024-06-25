@@ -20,7 +20,7 @@ app.use(express.json())
 app.use('/watch', watchRouter)
 
 app.get('/', (req, res) => {
-  res.send('HHLD YouTube Watch Service')
+  res.send('OrTube Watch Service')
 })
 
 app.listen(port, () => {
